@@ -26,11 +26,11 @@ All other vim `keyinput` are supported too.
     - executes `exit`
  - commands [`:find`, `:f`]
     - executes `find`
- - commands [`:findfile`, `:fi`]
+ - commands [`:findfile`, `:ff`]
     - executes `find-file`
- - commands [`:prevfile`, `:pr`]
+ - commands [`:prevfile`, `:tp`]
     - executes `prev-file`
- - commands [`:nextfile`, `:ne`]
+ - commands [`:nextfile`, `:tn`]
     - executes `next-file`
  - commands [`:open`, `:o`]
     - executes `files`
@@ -38,26 +38,20 @@ All other vim `keyinput` are supported too.
     - executes `save`
  - commands [`:new`, `:n`]
     - executes `new-file`
- - commands [`:format`, `:fo`]
+ - commands [`:format`, `:mp`]
     - executes `format`
- - commands [`:menu`, `:m`]
-    - executes `toggle-menu`
- - commands [`:writeas`, `:wr`]
-    - executes `save-as`
- - commands [`:runfile`, `:ru`]
-     - executes `run-file`
  - commands [`:quit`, `:q`]
      - executes `close-current-tab`
- - commands [`:quitall`, `:qu`]
+ - commands [`:quitall`, `:qa`]
     - executes `close-all-files`
  - executes `command-palette`
     - commands [`:palette`, `:pa`]
- - commands [`:sidebar`, `:si`]
+ - commands [`:sidebar`, `:ee`]
     - executes `toggle-sidebar`
  - commands [`:writequit`, `:wri`]
     - executes `save` and `quit`
- - commands [`:problems`, `:prob`]
+ - commands [`:problems`, `:x`]
     - executes `open problems`
- - commands [`:settings`, `:sett`]
+ - commands [`:settings`, `:St`]
     - executes `open settings`
 # acode-vim-mode
