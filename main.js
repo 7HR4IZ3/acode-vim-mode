@@ -21,26 +21,28 @@
 
     get #commandsMap() {
       return [
+        
+        // first t is tab and then we can use n for next, p for previous
+        // first f is find and then we can use f for file
+
         { bind: ["run", "r"], exec: "run" },
         { bind: ["exit", "e"], exec: "exit" },
         { bind: ["find", "f"], exec: "find" },
-        { bind: ["findfile", "fi"], exec: "find-file" },
-        { bind: ["prevfile", "pr"], exec: "prev-file" },
-        { bind: ["nextfile", "ne"], exec: "next-file" },
+        { bind: ["findfile", "ff"], exec: "find-file" },
+        { bind: ["prevfile", "tb"], exec: "prev-file" },
+        { bind: ["nextfile", "tn"], exec: "next-file" },
         { bind: ["open", "o"], exec: "files" },
         { bind: ["write", "w"], exec: "save" },
         { bind: ["new", "n"], exec: "new-file" },
-        { bind: ["format", "fo"], exec: "format" },
+        { bind: ["format", "mp"], exec: "format" },
         { bind: ["menu", "m"], exec: "toggle-menu" },
-        { bind: ["writeas", "wr"], exec: "save-as" },
-        { bind: ["runfile", "ru"], exec: "run-file" },
         { bind: ["quit", "q"], exec: "close-current-tab" },
-        { bind: ["quitall", "qu"], exec: "close-all-files" },
+        { bind: ["quitall", "qa"], exec: "close-all-files" },
         { bind: ["palette", "pa"], exec: "command-palette" },
-        { bind: ["sidebar", "si"], exec: "toggle-sidebar" },
-        { bind: ["writequit", "wri"], exec: ["save", "quit"] },
-        { bind: ["problems", "prob"], exec: "open", args: ["problems"] },
-        { bind: ["settings", "sett"], exec: "open", args: ["settings"] }
+        { bind: ["sidebar", "ee"], exec: "toggle-sidebar" },
+        { bind: ["writequit", "wq"], exec: ["save", "quit"] },
+        { bind: ["problems", "x"], exec: "open", args: ["problems"] },
+        { bind: ["settings", "St"], exec: "open", args: ["settings"] }
       ];
     }
 
