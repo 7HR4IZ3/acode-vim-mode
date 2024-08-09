@@ -21,7 +21,7 @@ module.exports = (env, options) => {
   const main = {
     mode,
     entry: {
-      main: './src/main.js',
+      main: './main.js',
     },
     output: {
       path: path.resolve(__dirname, 'dist'),

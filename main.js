@@ -28,7 +28,6 @@
         { bind: ["run", "r"], exec: "run" },
         { bind: ["exit", "e"], exec: "exit" },
         { bind: ["find", "f"], exec: "find" },
-        { bind: ["findfile", "ff"], exec: "find-file" },
         { bind: ["prevfile", "tb"], exec: "prev-file" },
         { bind: ["nextfile", "tn"], exec: "next-file" },
         { bind: ["open", "o"], exec: "files" },
